@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    double l,SA;
+    double p = 3.14159265;
+    cout<<"What length did you measure (in cm)?\n";
+    cin>>l;
+    SA = (2*l)*sqrt(((4*l*l)/(p*p)) + ((2*l*l)/p));
+    cout<<"Surface area is:\n";
+    cout<< SA;
+
+    
+}
